@@ -1,0 +1,61 @@
+/* Shipping.css */
+
+/* Container styling */
+.shipping-container {
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    background: linear-gradient(90deg, #ffb3c1 0%, #ffe5e8 100%);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    box-shadow: 0 8px 32px rgba(0,0,0,.5);
+    padding: 20px;
+    border-radius: 7px;
+    margin: 50px 20px;
+}
+
+/* Heading styling */
+.shipping-heading {
+    margin: 0 0 40px 0;
+    color: navy;
+    text-decoration: underline;
+}
+
+/* Label styling */
+.shipping-label {
+    display: block;
+    width: 100%;
+    text-align: left;
+    margin: 5px 0;
+}
+
+/* Input styling */
+.shipping-input {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    border-radius: 7px;
+    border: 1px solid;
+}
+
+/* Button styling */
+.shipping-button {
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 30px 0;
+    padding: 10px 20px;
+    border: none;
+    background-color: navy;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+/* Button hover effect */
+.shipping-button:hover {
+    background-color: navy; /* Slightly darker background on hover */
+}
